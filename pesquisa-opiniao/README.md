@@ -1,8 +1,8 @@
 # 📊 Pesquisa de Opinião 📊
 ## 📖 Sobre o projeto
-Este programa em Python realiza uma pesquisa de opinião com 50 entrevistados sobre o atendimento da empresa fictícia TudoWeb.
+Este programa em Python realiza uma pesquisa de opinião com 50 entrevistados sobre o atendimento da empresa fictícia TudoWeb.  
 Cada entrevistado deve informar seu **nome, idade e grau de satisfação**, podendo escolher entre:
-(1) EXCELENTE (2) BOM (3) RUIM
+(1) EXCELENTE (2) BOM (3) RUIM  
 Ao final, o programa apresenta a quantidade de respostas EXCELENTE e RUIM.
 
 ## 💻 Linguagem utilizada

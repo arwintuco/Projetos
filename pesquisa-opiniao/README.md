@@ -5,7 +5,7 @@ Cada entrevistado deve informar seu **nome, idade e grau de satisfação**, pode
 (1) EXCELENTE (2) BOM (3) RUIM
 Ao final, o programa apresenta a quantidade de respostas EXCELENTE e RUIM.
 
-## Linguagem utilizada
+## 💻 Linguagem utilizada
 ![Python](https://img.shields.io/badge/Python-3.14-blue?style=plastic&logo=python&logoColor=3776AB&labelColor=white&color=3776AB)
 
 ## ⚙️ Estruturas utilizadas

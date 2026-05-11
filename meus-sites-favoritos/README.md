@@ -1,6 +1,6 @@
 # 🌐 Meus Sites Favoritos 🌐
 ## 📖 Sobre o projeto
-Este projeto em HTML apresenta uma página simples listando os sites favoritos do autor, Arwin Tuco.
+Este projeto em HTML apresenta uma página simples listando meus sites favoritos.
 Cada site é exibido com:
 - Um título
 - Uma imagem ilustrativa

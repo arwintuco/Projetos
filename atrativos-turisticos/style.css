@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2%;
+    background-color: rgb(213, 211, 211);
+}
+
+#titulo-principal {
+    background: linear-gradient(135deg, rgb(83, 87, 163) 0%, rgb(39, 43, 120) 100%);
+    color: white;
+    padding: 1%;
+    margin: 0% 4%;
+    border-radius: 8px;
+}
+
+#titulo-principal h1 {
+    font-family: 'Kaushan Script';
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: 10px;
+    color: antiquewhite;
+}
+
+
+#sobre {
+    text-align: justify;
+    padding: 0% 1%;
+    margin: 2% 6%;
+    font-size: 18px;
+    border-left: 4px solid rgb(39, 43, 120);
+}
+
+.container-principal {
+    padding: 0% 9% 0%;
+    display: flex;
+}
+
+.conteudo {
+    width: 30%;
+    margin: 0% 1%;
+    background-color: rgb(83, 87, 163, 0.4);
+    border-radius: 20px;
+
+}
+
+.titulo {
+    background-color: rgb(39, 43, 120, 0.9);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.titulo h2 {
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(239, 227, 136);
+}
+
+img {
+    height: 250px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 0% 2%;
+}
+
+.descrição {
+    border-radius: 5px;
+    margin: 1% 10%;
+}
+
+.descrição h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(39, 43, 120);
+}
+
+.descrição p {
+    text-align: justify;
+    padding: 0% 4%;
+}
+
+.w3-card {
+    background-color: rgb(83, 87, 163, 0.5);
+}
+
+button {
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(83, 87, 163);
+    padding: 5% 8%;
+    color: white;
+}
+
+.refImg p {
+    color: gray;
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+footer {
+    background: linear-gradient(135deg, rgb(39, 43, 120) 0%, rgb(83, 87, 163) 100%);
+    color: rgb(250, 235, 215);
+    text-align: center;
+    padding: 0.5%;
+    margin: 2% 4% 0%;
+    border-radius: 8px;
+}
+
+footer p {
+    font-weight: bold;
+}

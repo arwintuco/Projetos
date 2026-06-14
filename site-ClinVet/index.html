@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <title>ClinVet</title>
+    <style>
+        body {
+            background-color: #d5d4d4;
+        }
+
+        #main {
+            margin-left: 100px
+        }
+
+        .w3-row-padding img {
+            margin-bottom: 12px
+        }
+
+        .w3-sidebar {
+            width: 120px;
+            background: #188C9F;
+        }
+
+        body {
+            font-family: "Montserrat", sans-serif;
+            color: #188C9F;
+        }
+
+        .cabecalho {
+            display: flex;
+            align-items: center;
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 50px;
+            text-shadow: 2px 2px 4px white;
+        }
+
+        h2,
+        h3 {
+            font-weight: bold;
+        }
+
+        h4 {
+            font-family: Pacifico;
+            font-size: 26px;
+            text-shadow: 2px 2px 4px white;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #main {
+                margin-left: 0
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--SideBar-->
+    <nav class="w3-sidebar w3-bar-block w3-center w3-hide-small">
+        <!-- HOME -->
+        <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+        </a>
+        <!-- Parceiros -->
+        <a href="#parceiros"
+            class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>PARCEIROS</p>
+        </a>
+        <!-- Faq -->
+        <a href="#faq" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>FAQ</p>
+        </a>
+    </nav>
+
+    <!--NavBar-->
+    <div class="w3-top w3-hide-large w3-hide-medium">
+        <nav class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#home" class="w3-bar-item w3-button" style="width: 33% ">HOME</a>
+            <a href="#parceiros" class="w3-bar-item w3-button" style="width: 33% ">PARCEIROS</a>
+            <a href="#faq" class="w3-bar-item w3-button" style="width: 33% ">FAQ</a>
+        </nav>
+    </div>
+
+    <!--Conteúdo da Página -->
+    <div class="w3-padding w3-center" id="main">
+        <!-- Home -->
+        <div class="page" style="height: 100%;" id="home">
+            <header class="w3-content">
+                <!-- Cabeçalho -->
+                <div class="cabecalho w3-text-cyan w3-row w3-center">
+                    <div class="w3-third">
+                        <h1>ClinVet</h1>
+                    </div>
+                    <div class="w3-third">
+                        <img src="img/clinVet.png" alt="Logo ClinVet" style="height:80px;">
+                    </div>
+                    <div class="w3-third">
+                        <h4>Cuidando com amor e ciência</h4>
+                    </div>
+                </div>
+                <hr style="width:100%; border:2px solid black;" class="w3-opacity">
+            </header>
+            <!-- Sobre -->
+            <main class="w3-content">
+                <div>
+                    <h2>Sobre nossa Clínica</h2>
+                    <hr style="width:50%; margin:auto; border:2px solid gray" class="w3-opacity w3-margin-bottom">
+
+                    <div class="w3-row w3-row-padding">
+
+                        <div class="w3-container w3-margin-bottom">
+                            <ul class="w3-ul w3-white w3-center w3-hoverable">
+                                <li class="w3-text-white w3-xlarge w3-padding"
+                                    style="font-weight: bold; background-color: #188C9F;">História</li>
+                                <li class="w3-padding">Fundada em 2023 por profissionais apaixonados por animais, a ClinVet nasceu com o 
+                                    propósito de oferecer atendimento humanizado e tecnologia de ponta para o bem-estar dos pets da região.</li>
+                            </ul>
+                        </div>
+
+                        <div class="w3-container w3-half w3-margin-bottom">
+                            <ul class="w3-ul w3-white w3-center w3-hoverable">
+                                <li class="w3-text-white w3-xlarge w3-padding"
+                                    style="font-weight: bold; background-color: #188C9F;">Missão</li>
+                                <li class="w3-padding">Garantir saúde, bem-estar e qualidade de vida aos animais de estimação, oferecendo atendimento humanizado aliado à ciência e tecnologia de ponta.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="w3-container w3-half w3-margin-bottom">
+                            <ul class="w3-ul w3-white w3-center w3-hoverable">
+                                <li class="w3-text-white w3-xlarge w3-padding"
+                                    style="font-weight: bold; background-color: #188C9F;">Visão</li>
+                                <li class="w3-padding">Ser reconhecida como referência regional em cuidados veterinários, destacando-se pela excelência nos serviços, inovação e compromisso com a comunidade.</li>
+                            </ul>
+                        </div>
+
+                        <div class="w3-container w3-margin-bottom">
+                            <ul class="w3-ul w3-white w3-center w3-hoverable">
+                                <li class="w3-text-white w3-xlarge w3-padding"
+                                    style="font-weight: bold; background-color: #188C9F;">Valores</li>
+                                <li class="w3-padding">Amor pelos animais</li>
+                                <li class="w3-padding">Ética</li>
+                                <li class="w3-padding">Responsabilidade social</li>
+                                <li class="w3-padding">Inovação</li>
+                                <li class="w3-padding">Compromisso com Tutores</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- Rodapé da seção Home -->
+            <footer class="w3-content w3-padding-small w3-center" style="background-color: #0e9fb8; color: aliceblue;">
+                <div class="contatos" style="display: flex; justify-content: center; gap: 40px;">
+                    <p>Email: contato@clinvet.com</p>
+                    <p>Telefone: (11) 3333-3333</p>
+                </div>
+                <p style="display:flex; justify-content:center; gap:20px;">
+                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                    <i class="fa fa-instagram w3-hover-opacity"></i>
+                    <i class="fa fa-whatsapp w3-hover-opacity"></i>
+                </p>
+            </footer>
+        </div>
+
+        <!-- Parceiros -->
+        <div class="page w3-margin-top w3-padding" style="height: 100%;" id="parceiros">
+            <!-- Cabeçalho da seção Parceiros -->
+            <div class="w3-content">
+                <div class="cabecalho w3-text-cyan w3-row w3-center">
+                    <div class="w3-third">
+                        <h1>ClinVet</h1>
+                    </div>
+                    <div class="w3-third">
+                        <img src="img/clinVet.png" alt="Logo ClinVet" style="height:80px;">
+                    </div>
+                    <div class="w3-third">
+                        <h4>Cuidando com amor e ciência</h4>
+                    </div>
+                </div>
+                <hr style="width:100%; border:2px solid black;" class="w3-opacity">
+            </div>
+            <!-- Conteúdo Parceiros -->
+            <div class="w3-content">
+                <h2>Parceiros</h2>
+                <hr style="width:50%; margin:auto; border:2px solid grey" class="w3-opacity w3-margin-bottom">
+
+                <div class="w3-row w3-row-padding">
+                    <div class="w3-third">
+                        <div>
+                            <h3>Pet Food Brasil</h3>
+                            <img src="img/petFoodBrasil.png" style="width: 100px"
+                                class="w3-opacity w3-hover-opacity-off">
+                            <p>Fornecimento de rações premium para nossos pacientes.</p>
+                        </div>
+                        <div>
+                            <h3>FarmáciaVET</h3>
+                            <img src="img/farmaciaVet.png" style="width: 100px;"
+                                class="w3-opacity w3-hover-opacity-off">
+                            <p>Parceira na oferta de medicamentos e produtos veterinários de alta qualidade, garantindo
+                                o
+                                cuidado e a saúde.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="w3-third">
+                        <div style="display: flex; flex-direction: column; align-items: center; padding: 25% 0%;">
+                            <h3>PetClean Serviços</h3>
+                            <img src="img/petCleanServicos.png" style="width: 100px"
+                                class="w3-opacity w3-hover-opacity-off">
+                            <p>Parceira na oferta de produtos de higiene animal, garantindo bem-estar e saúde.</p>
+                        </div>
+                    </div>
+
+                    <div class="w3-third">
+                        <div>
+                            <h3>CaronaPet</h3>
+                            <img src="img/caronaPet.png" style="width: 100px" class="w3-opacity w3-hover-opacity-off">
+                            <p>Parceira no transporte seguro e confortável de animais até nossa clínica e eventos de
+                                adoção.
+                            </p>
+                        </div>
+                        <div>
+                            <h3>ONG Amigos dos Animais</h3>
+                            <img src="img/ongAmigosAnimais.png" style="width: 100px;"
+                                class="w3-opacity w3-hover-opacity-off">
+                            <p>Parceria dedicada ao resgate e adoção responsável de animais, promovendo campanhas de
+                                conscientização e bem-estar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Rodapé da seção Parceiros -->
+            <footer class="w3-content w3-padding-small w3-center" style="background-color: #0e9fb8; color: aliceblue;">
+                <div class="contatos" style="display: flex; justify-content: center; gap: 40px;">
+                    <p>Email: contato@clinvet.com</p>
+                    <p>Telefone: (11) 3333-3333</p>
+                </div>
+                <p style="display:flex; justify-content:center; gap:20px;">
+                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                    <i class="fa fa-instagram w3-hover-opacity"></i>
+                    <i class="fa fa-whatsapp w3-hover-opacity"></i>
+                </p>
+            </footer>
+        </div>
+
+        <!-- Faq -->
+        <div class="page w3-margin-top w3-padding" style="height: 100%;" id="faq">
+            <!-- Cabeçalho da seção FAQ -->
+            <div class="w3-content">
+                <div class="cabecalho w3-text-cyan w3-row w3-center">
+                    <div class="w3-third">
+                        <h1>ClinVet</h1>
+                    </div>
+                    <div class="w3-third">
+                        <img src="img/clinVet.png" alt="Logo ClinVet" style="height:80px;">
+                    </div>
+                    <div class="w3-third">
+                        <h4>Cuidando com amor e ciência</h4>
+                    </div>
+                </div>
+                <hr style="width:100%; border:2px solid black;" class="w3-opacity">
+            </div>
+            <!-- Conteúdo FAQ -->
+            <div class="w3-content">
+                <h2>FAQ</h2>
+                <hr style="width:50%; margin:auto; border:2px solid gray" class="w3-opacity w3-margin-bottom">
+
+                <div class="w3-section w3-text-grey">
+                    <p><strong>Quais serviços a clínica oferece?</strong></p>
+                    <p>Consultas, exames laboratoriais, cirurgias e vacinas.</p>
+
+                    <p><strong>Vocês atendem animais de grande porte?</strong></p>
+                    <p>Atendemos principalmente pets de pequeno e médio porte.</p>
+
+                    <p><strong>Qual o horário de funcionamento?</strong></p>
+                    <p>Segunda a sábado, das 8h às 18h.</p>
+                </div>
+                <div>
+                    <p><strong>Faça uma pergunta:</strong></p>
+                    <form>
+                        <div style="display:flex; gap:20px;">
+                            <p style="flex:1;">
+                                <input class="w3-input w3-padding-16" type="text" placeholder="Nome" required
+                                    name="Nome">
+                            </p>
+                            <p style="flex:1;">
+                                <input class="w3-input w3-padding-16" type="text" placeholder="Email" required
+                                    name="Email">
+                            </p>
+                        </div>
+                        <p>
+                            <input class="w3-input w3-padding-16" type="text" placeholder="Assunto"
+                                requiredname="Assunto">
+                        </p>
+                        <p>
+                            <input class="w3-input w3-padding-16" placeholder="Menssagem" required name="Mensagem">
+                        </p>
+
+                        <p>
+                            <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                                <i class="fa fa-paper-plane"></i> Enviar pergunta
+                            </button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+            <!-- Rodapé da seção FAQ -->
+            <footer class="w3-content w3-padding-small w3-center" style="background-color: #0e9fb8; color: aliceblue;">
+                <div class="contatos" style="display: flex; justify-content: center; gap: 40px;">
+                    <p>Email: contato@clinvet.com</p>
+                    <p>Telefone: (11) 3333-3333</p>
+                </div>
+                <p style="display:flex; justify-content:center; gap:20px;">
+                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                    <i class="fa fa-instagram w3-hover-opacity"></i>
+                    <i class="fa fa-whatsapp w3-hover-opacity"></i>
+                </p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

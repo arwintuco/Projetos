@@ -28,7 +28,6 @@
             width: 120px;
             background: #188C9F;
         }
-
         body {
             font-family: "Montserrat", sans-serif;
             color: #188C9F;
@@ -50,6 +49,7 @@
             font-weight: bold;
         }
 
+
         h4 {
             font-family: Pacifico;
             font-size: 26px;
@@ -68,10 +68,16 @@
 <body>
     <!--SideBar-->
     <nav class="w3-sidebar w3-bar-block w3-center w3-hide-small">
-        <!-- HOME -->
+        <!-- Home -->
         <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white">
             <i class="fa fa-home w3-xxlarge"></i>
             <p>HOME</p>
+        </a>
+        <!-- Serviços-->
+        <a href="#serviços"
+            class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white">
+            <i class="fa fa-paw  w3-xxlarge"></i>
+            <p>SERVIÇOS</p>
         </a>
         <!-- Parceiros -->
         <a href="#parceiros"
@@ -89,9 +95,10 @@
     <!--NavBar-->
     <div class="w3-top w3-hide-large w3-hide-medium">
         <nav class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-            <a href="#home" class="w3-bar-item w3-button" style="width: 33% ">HOME</a>
-            <a href="#parceiros" class="w3-bar-item w3-button" style="width: 33% ">PARCEIROS</a>
-            <a href="#faq" class="w3-bar-item w3-button" style="width: 33% ">FAQ</a>
+            <a href="#home" class="w3-bar-item w3-button" style="width: 25% ">HOME</a>
+            <a href="#serviços" class="w3-bar-item w3-button" style="width: 25% ">SERVIÇOS</a>
+            <a href="#parceiros" class="w3-bar-item w3-button" style="width: 25% ">PARCEIROS</a>
+            <a href="#faq" class="w3-bar-item w3-button" style="width: 25% ">FAQ</a>
         </nav>
     </div>
 
@@ -126,8 +133,10 @@
                             <ul class="w3-ul w3-white w3-center w3-hoverable">
                                 <li class="w3-text-white w3-xlarge w3-padding"
                                     style="font-weight: bold; background-color: #188C9F;">História</li>
-                                <li class="w3-padding">Fundada em 2023 por profissionais apaixonados por animais, a ClinVet nasceu com o 
-                                    propósito de oferecer atendimento humanizado e tecnologia de ponta para o bem-estar dos pets da região.</li>
+                                <li class="w3-padding">Fundada em 2023 por profissionais apaixonados por animais, a
+                                    ClinVet nasceu com o
+                                    propósito de oferecer atendimento humanizado e tecnologia de ponta para o bem-estar
+                                    dos pets da região.</li>
                             </ul>
                         </div>
 
@@ -135,7 +144,8 @@
                             <ul class="w3-ul w3-white w3-center w3-hoverable">
                                 <li class="w3-text-white w3-xlarge w3-padding"
                                     style="font-weight: bold; background-color: #188C9F;">Missão</li>
-                                <li class="w3-padding">Garantir saúde, bem-estar e qualidade de vida aos animais de estimação, oferecendo atendimento humanizado aliado à ciência e tecnologia de ponta.
+                                <li class="w3-padding">Garantir saúde, bem-estar e qualidade de vida aos animais de
+                                    estimação, oferecendo atendimento humanizado aliado à ciência e tecnologia de ponta.
                                 </li>
                             </ul>
                         </div>
@@ -144,7 +154,9 @@
                             <ul class="w3-ul w3-white w3-center w3-hoverable">
                                 <li class="w3-text-white w3-xlarge w3-padding"
                                     style="font-weight: bold; background-color: #188C9F;">Visão</li>
-                                <li class="w3-padding">Ser reconhecida como referência regional em cuidados veterinários, destacando-se pela excelência nos serviços, inovação e compromisso com a comunidade.</li>
+                                <li class="w3-padding">Ser reconhecida como referência regional em cuidados
+                                    veterinários, destacando-se pela excelência nos serviços, inovação e compromisso com
+                                    a comunidade.</li>
                             </ul>
                         </div>
 
@@ -163,6 +175,141 @@
                 </div>
             </main>
             <!-- Rodapé da seção Home -->
+            <footer class="w3-content w3-padding-small w3-center" style="background-color: #0e9fb8; color: aliceblue;">
+                <div class="contatos" style="display: flex; justify-content: center; gap: 40px;">
+                    <p>Email: contato@clinvet.com</p>
+                    <p>Telefone: (11) 3333-3333</p>
+                </div>
+                <p style="display:flex; justify-content:center; gap:20px;">
+                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                    <i class="fa fa-instagram w3-hover-opacity"></i>
+                    <i class="fa fa-whatsapp w3-hover-opacity"></i>
+                </p>
+            </footer>
+        </div>
+
+        <!-- Serviços -->
+        <div class="page" style="height: 100%;" id="serviços">
+            <header class="w3-content">
+                <!-- Cabeçalho -->
+                <div class="cabecalho w3-text-cyan w3-row w3-center">
+                    <div class="w3-third">
+                        <h1>ClinVet</h1>
+                    </div>
+                    <div class="w3-third">
+                        <img src="img/clinVet.png" alt="Logo ClinVet" style="height:80px;">
+                    </div>
+                    <div class="w3-third">
+                        <h4>Cuidando com amor e ciência</h4>
+                    </div>
+                </div>
+                <hr style="width:100%; border:2px solid black;" class="w3-opacity">
+            </header>
+            <!-- Slide -->
+            <div class="w3-content">
+                <h2>Nossos Serviços</h2>
+                <hr style="width:50%; margin:auto; border:2px solid gray" class="w3-opacity w3-margin-bottom">
+
+                <div class="w3-row w3-row-padding">
+                    <div class="w3-content w3-display-container w3-center" style="max-width:500px">
+                        <div class="slide">
+                            <h3>Consultas Gerais e Especializadas</h3>
+                            <img src="img/consulta.jpg" style="width:100%">
+                            <p style="color: black; font-size: 18px;">Atendimento clínico completo para cães e gatos,
+                                com profissionais preparados para identificar e tratar diferentes necessidades de saúde,
+                                desde cuidados básicos até especialidades como dermatologia e cardiologia.</p>
+                            <p>Imagem de <a
+                                    href="https://veterinarioalphaconde.com.br/veterinario/">veterinarioalphaconde.com.br</a>
+                            </p>
+                        </div>
+                        <div class="slide">
+                            <h3>Cirurgias</h3>
+                            <img src="img/cirurgia.webp" style="width:100%">
+                            <p style="color: black; font-size: 18px;">Equipe especializada em procedimentos cirúrgicos, 
+                                desde castrações até cirurgias emergenciais e ortopédicas, sempre com segurança e cuidado.</p>
+                            <p>Imagem de <a
+                                    href="https://veterinaria.hospvet.com.br/cirurgia-pet">veterinaria.hospvet.com.br</a>
+                            </p>
+                        </div>
+                        <div class="slide">
+                            <h3>Exames Laboratoriais e de Imagem</h3>
+                            <img src="img/examesLaboratoriais.webp" style="width:100%">
+                            <p style="color: black; font-size: 18px;">Realizamos exames de sangue, urina, raio-X e 
+                                ultrassonografia, oferecendo diagnósticos precisos para orientar o melhor tratamento.</p>
+                            <p>Imagem de <a
+                                    href="https://www.goldlabvet.com/exames-veterinarios/tgp/">www.goldlabvet.com</a>
+                            </p>
+                        </div>
+                        <div class="slide">
+                            <h3>Vacinação e e Controle Preventivo</h3>
+                            <img src="img/vacinacao.jpg" style="width:100%">
+                            <p style="color: black; font-size: 18px;">Aplicação de vacinas essenciais e acompanhamento 
+                                preventivo para proteger os pets contra doenças, garantindo mais saúde e qualidade de vida.</p>
+                            <p>Imagem de <a
+                                    href="https://animaniacs.com.br/dicas-de-vacinacao/">animaniacs.com.br</a>
+                            </p>
+                        </div>
+                        <div class="slide">
+                            <h3>Banho e Tosa</h3>
+                            <img src="img/banhoTosa.webp" style="width:100%">
+                            <p style="color: black; font-size: 18px;">Serviço de higiene e estética que mantém os pets 
+                                limpos, saudáveis e confortáveis, com técnicas adequadas para cada tipo de pelagem.</p>
+                            <p>Imagem de <a
+                                    href="https://centroveterinariopacaembu.com.br/banho-e-tosa-seu-cachorro-mais-cheiroso-e-saudavel/">centroveterinariopacaembu.com.br</a>
+                            </p>
+                        </div>
+                        <div class="slide">
+                            <h3>Acupuntura</h3>
+                            <img src="img/acupuntura.jpg" style="width:100%">
+                            <p style="color: black; font-size: 18px;">Tratamento complementar que utiliza técnicas de 
+                                acupuntura para aliviar dores, reduzir inflamações e promover equilíbrio físico e emocional 
+                                nos pets. Indicada para casos de artrite, problemas neurológicos, recuperação pós-cirúrgica 
+                                e até controle de ansiedade.</p>
+                            <p>Imagem de <a
+                                    href="https://pataamar.com.br/blog/acupuntura-veterinaria-como-funciona/">pataamar.com.br</a>
+                            </p>
+                        </div>
+                        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-
+                        1)">&#10094;</button>
+                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                    </div>
+                    <script>
+                        var index = 0;
+                        carousel();
+
+                        function carousel() {
+                            var i;
+                            var x = document.getElementsByClassName("slide");
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            index++;
+                            if (index > x.length) { index = 1 }
+                            x[index - 1].style.display = "block";
+                            setTimeout(carousel, 5000);
+                        }
+
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+
+                        function plusDivs(n) {
+                            showDivs(slideIndex += n);
+                        }
+
+                        function showDivs(n) {
+                            var i; 
+                        var x = document.getElementsByClassName("slide");
+                            if (n > x.length) { slideIndex = 1 }
+                            if (n < 1) { slideIndex = x.length }
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            x[slideIndex - 1].style.display = "block";
+                        } 
+                    </script>
+                </div>
+            </div>
+            <!-- Rodapé da seção Serviços -->
             <footer class="w3-content w3-padding-small w3-center" style="background-color: #0e9fb8; color: aliceblue;">
                 <div class="contatos" style="display: flex; justify-content: center; gap: 40px;">
                     <p>Email: contato@clinvet.com</p>

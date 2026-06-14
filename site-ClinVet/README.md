@@ -26,6 +26,11 @@ O layout foi desenvolvido utilizando W3.CSS para estilização responsiva, além
 - **div e classes/IDs:** para organização e estilização.
 - **Flexbox e W3.CSS:** para responsividade e alinhamento dos elementos.
 
+## 📈 Atualizações
+- **Ag15** → Criação do site institucional com seções *Home*, *Parceiros* e *FAQ*.  
+- **Ag16** → Adição da seção **Serviços** com slideshow implementado via JavaScript interno.  
+
+
 ## ▶️ Como executar este projeto
 - Clone este repositório:
     ```bash
